@@ -728,18 +728,4 @@ plt.show()
 plt.show()
 print('-------------Seperate--------------')  
 
-# ====================================================
-#  Problem 6: XOR Dataset (Difficult Non-linear Separation)
-# ====================================================
-
-# XOR Pattern (0,0)=0 , (1,1)=0 , (0,1)=1 , (1,0)=1
-X = np.array([[0,0],[0,1],[1,0],[1,1]] * 50)
-y = np.array([0,1,1,0] * 50)
-
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
-X_train, X_test, y_train, y_test = train_test_split(
-    X_scaled, y, test_size=0.25, random_state=42)
-
-print('-------------Seperate--------------')  
 
