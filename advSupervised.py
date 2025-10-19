@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from sklearn.svm import SVR
 
-"""
+
 #-- Classification ..
 
 #  Load dataset
@@ -577,7 +577,7 @@ print("Accuracy => ",svm.score(X_test,y_test))
 
 print('-------------Seperate--------------')  
 
-"""
+
 # ====================================================
 # 🧩 Problem 1: Linear Classification (Linearly Separable)
 # ====================================================
@@ -742,3 +742,4 @@ X_train, X_test, y_train, y_test = train_test_split(
     X_scaled, y, test_size=0.25, random_state=42)
 
 print('-------------Seperate--------------')  
+
