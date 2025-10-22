@@ -579,7 +579,7 @@ print('-------------Seperate--------------')
 
 
 # ====================================================
-# 🧩 Problem 1: Linear Classification (Linearly Separable)
+#  Problem 1: Linear Classification (Linearly Separable)
 # ====================================================
 from sklearn.datasets import make_blobs
 
@@ -727,5 +727,6 @@ disp.plot(cmap='Blues')
 plt.show()
 plt.show()
 print('-------------Seperate--------------')  
+
 
 
